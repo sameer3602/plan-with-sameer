@@ -1,0 +1,18 @@
+.refresh{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.RefreshBtn{
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.RefreshBtn:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.2s;
+}

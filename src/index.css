@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+body{
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+.container-tour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Heading{
+    font-size: 3rem;
+    margin: 6vh;
+    border: 7px dashed rgb(1,17,160);
+    border-radius: 20px;
+    padding: 1vh 5vw;
+}
+.Create-cards{
+    background-image: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    vertical-align: baseline;
+}
+.Cards{
+    height: max-content;
+    width: 400px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius:10px ;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0,0.24)0px 3px 8px;
+}
+.image{
+    aspect-ratio: 1/1;
+    width: 380px;
+    object-fit: cover;
+    padding: 5px 5px;
+}
+.tour-info{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.tour-price{
+    color:#1faa59;
+    font-size: 1.3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tour-name{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color:rgb(30, 26, 26);
+}
+.read-more{
+    color: rgba(29, 88, 190, 0.9);
+    cursor: pointer;
+}
+.btn-red{
+    margin-top: 20px;
+    padding:10px 80px;
+    border: 1px solid #b4161b;
+    border-radius: 10px;
+    background-color:#b4161b21;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.btn-red:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.1s;
+}
+.refresh{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.RefreshBtn{
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.RefreshBtn:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.2s;
+}
