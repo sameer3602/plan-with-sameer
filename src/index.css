@@ -4,6 +4,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: rgba(231,231,231,0.56);
 }
 body{
     min-height: 100vh;
@@ -28,8 +29,7 @@ body{
     justify-content: center;
     margin: 0 auto;
     margin-top: 10px;
-    vertical-align: baseline;
-
+    background-color: white;
 }
 .Cards{
     height: 650px;
