@@ -46,6 +46,8 @@ body{
     width: 380px;
     object-fit: cover;
     padding: 5px 5px;
+    border-radius: 30px;
+    box-shadow: -4px 4px 4px 4px grey;
 }
 .tour-info{
     margin-top: 20px;

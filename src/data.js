@@ -48,6 +48,20 @@ const data = [
 		image: "https://cdn.thecodehelp.in/Kochi.jpeg",
 		price: "68,595",
 	},
+	{
+		id: 8,
+		name: "Bali",
+		info: "Bali's central mountains include several peaks over 2,000 metres (6,600 feet) in elevation and active volcanoes such as Mount Batur. The highest is Mount Agung (3,031 m; 9,944 ft), known as the mother mountain, which is an active volcano rated as one of the world's most likely sites for a massive eruption within the next 100 years.[40] In late 2017 Mount Agung started erupting and large numbers of people were evacuated, temporarily closing the island's airport.",
+		image: "https://i.pinimg.com/564x/91/68/1c/91681c250ce1986f9111f0c88174c8cc.jpg",
+		price: "69,696",
+	},
+	{
+		id: 9,
+		name: "Maldives",
+		info: "The Maldives is the smallest country in Asia. Including the sea, the territory spans roughly 90,000 square kilometres (35,000 sq mi), and a land area of 298 square kilometres (115 sq mi). The Maldives is one of the world's most geographically dispersed sovereign states, and the smallest Muslim-majority country by land area. With a population of 515,132 in the 2022 census, it is the 2nd least populous country in Asia.",
+		image: "https://i.pinimg.com/474x/ad/37/05/ad370511d29ac73fc9b0d9330deeb4d4.jpg",
+		price: "104,450",
+	},
 ];
 
 export default data;
