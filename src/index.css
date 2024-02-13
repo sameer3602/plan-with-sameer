@@ -23,16 +23,16 @@ body{
     padding: 1vh 5vw;
 }
 .Create-cards{
-    background-image: none;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
     margin: 0 auto;
     margin-top: 10px;
     vertical-align: baseline;
+
 }
 .Cards{
-    height: max-content;
+    height: 650px;
     width: 400px;
     margin: 1rem;
     display: flex;
